@@ -2,6 +2,7 @@
 Componentes:
 
 Manuel Antonio Romero Venegas  ma.romerov@alumnos.urjc.es
+
 Ignacio Ruiz Ardisoni          i.ruiza@alumnos.urjc.es
 
 Nombre de la aplicación: RetroTrade
