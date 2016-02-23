@@ -28,4 +28,5 @@ Del mismo modo, esta aplicación está centrada en videojuegos se podría extrap
 
 Entidades: Datos del usuario, Herramienta de búsqueda, Lista de artículos en venta, Lista de artículos deseados, Notificaciones
 
+Por un lado, la parte pública de la aplicación sería solamente la herramienta de búsqueda, y el acceso a la parte pública del perfil, que serían la lista de deseados y de productos a la venta, mientras que privado serían los datos personales y el chat entre usuarios.
 
