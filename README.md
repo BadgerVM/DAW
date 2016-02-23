@@ -1,9 +1,12 @@
 # DAW
 Componentes:
+Ricardo Rodriguez Sepúlveda r.rodriguezse@alumnos.urjc.es rrs94
 
-Manuel Antonio Romero Venegas  ma.romerov@alumnos.urjc.es
+Javier Alejandro Sierra Ramos ja.sierrar@alumnos.urjc.es javisierrar
 
-Ignacio Ruiz Ardisoni          i.ruiza@alumnos.urjc.es
+Manuel Antonio Romero Venegas  ma.romerov@alumnos.urjc.es BadgerVM
+
+Ignacio Ruiz Ardisoni          i.ruiza@alumnos.urjc.es  TaXiD
 
 Nombre de la aplicación: RetroTrade
 
