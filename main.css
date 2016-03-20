@@ -7,8 +7,7 @@ html {
 
 body {
     margin: 0 auto;
-    padding: 2em 2em 4em;
-    max-width: 800px;
+    padding: 0;   
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5em;
@@ -39,7 +38,7 @@ img {
     -webkit-animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
+    border: 10px solid rgba(0, 0, 0, 0);
     border-radius: 4px;
     display: block;
     margin: 1.3em auto;
@@ -67,44 +66,41 @@ img {
 
 
 #main-header {
-    background: #333;
-	color: white;
-	height: 80px;
+    width: 100%;
+    background-color: darkgrey;
+	color: grey;
+	height: 50px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 0px 0px 0px 10px;
+    
 }
 
 #main-header a {
     color: white;
 }
 
+#main-header img {
+    width: 100;
+    margin-top: -10px;
+    margin-left: -10px; 
+    
+        
+}
+
 #logo-header {
-    float: left;
-	padding: 15px 0 0 20px;
-	text-decoration: none;
+   	text-decoration: none;
+    position: absolute;
+    left: 0;
+    
 }
 
-#logo-header:hover {
-    color: #0b76a6;
-}
-
-#logo-header .site-name {
-    display: block;
-		font-weight: 700;
-		font-size: 1.2em;
-}
-
-#logo-header .site-desc {
-    display: block;
-		font-weight: 300;
-		font-size: 0.8em;
-		color: #999;
-}
 
 nav {
     float: right;
 }
 
 nav ul {
-    margin: 0;
+    margin: -13;
     padding: 0;
     list-style: none;
     padding-right: 20px;
@@ -112,15 +108,26 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    line-height: 80px;
 }
 
 nav ul li a {
-    display: block;
-    padding: 0 10px;
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    background: #0b76a6;
+#icons img{
+    width: 20;
+    margin-top: 20px;
+    margin-left: 1px;
 }
+
+#caja {
+    position: relative;
+    top: -35;
+    left: -2%;
+    overflow: hidden;
+    -moz-border-radius: 0px 0px 0px 0px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    text-align:center;
+}
+
+
