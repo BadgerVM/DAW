@@ -6839,3 +6839,46 @@ margin-top: 20px;
 }
 
 
+
+#producto {
+    max-width: 200;
+    max-height: 200;  
+}
+
+.inline {
+  margin: 7.5px -15px;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+}
+
+#product {
+    text-align: center;
+}
+
+.carousel-inner { text-align: center; }
+.carousel .item > img { display: inline-block; }
+
+#info {
+    text-align: center;
+}
+
+#foto {
+    max-height: 300px;
+}
+
+#fotos {
+    max-width: 30px;
+    
+}
+
+#fotPro {
+    max-width: 250px;
+    max-height: 250px;   
+    position: absolute;
+    top: 50%;
+    
+    
+}
