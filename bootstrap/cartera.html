@@ -5,41 +5,21 @@
            <link rel="stylesheet" href="css/bootstrap.css">
 			<script src="js/jquery-2.2.2.min.js"></script>
 			<script src="js/bootstrap.min.js"></script>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnycWatbGyK6ldFqErjFtko1yeMclNUOA&amp;sensor=true"></script>
+			<meta charset="UTF-8">
 			
 			
 		
 	</head>
-	<script>
-        function initialize() {
-            var mapOptions = {
-                center: new google.maps.LatLng(28.1823294, -82.352912),
-                zoom: 9,
-                mapTypeId: google.maps.MapTypeId.ROADMAP,
-                scrollwheel: false,
-                draggable: false,
-                panControl: true,
-                zoomControl: true,
-                mapTypeControl: false,
-                scaleControl: true,
-                streetViewControl: false,
-                overviewMapControl: true,
-                rotateControl: true,
-            };
-    var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-            }
-    google.maps.event.addDomListener(window, 'load', initialize);
-    
+	
+	<script type="text/javascript">
+        var saldo=4.40;
+        function añadir(){
+            saldo= saldo+10;
+            document.getElementById("saldo").innerHTML="<h2>Saldo actual: "+(saldo)+" €</h2>";
+            
+        }
     </script>
-    <style>
-        #map-canvas {
-      width: 100%;
-      height: 300px;
-      margin-bottom: 15px;
-      border: 2px solid #fff;
-    }
-    </style>
+    
 	<header>
 	    
 		<nav class="navbar navbar-default" role="navigation">
@@ -89,23 +69,21 @@
 	</header>
 	<body>
        <div class="container well">
-           <div class="google-map-canvas" id="map-canvas">
-               <div class="container">
-                    <div class="row">
-                        <div class="profile-header-container">   
-                            <div class="profile-header-img">
-                                <img class="img-circle" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" />
-                                <!-- badge -->
-                                <div class="rank-label-container">
-                                    <span class="label label-default rank-label">100 puntos</span>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-           
-           </div>
+            <div class="col-xs-6" id="saldo"><h2>Saldo actual: <script type="text/javascript"> 
+            document.writeln(saldo); </script> €             
+            
+            </h2>
         </div>
+            
+             <button type="button" class="btn btn-default" id="añadir" onclick="añadir(saldo)">Añadir Saldo</button>
+             <br/><br/><br/>
+             <div><span class="help-block">Una vez añadas saldo no se puede devolver, piensa bien cuánto quieres meter ;)</span></div>
+              
+               
+       </div>
+       
+       
+   
     </body>
 	
 </html>
