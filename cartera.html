@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>RetroTrade</title>		
+           <link rel="stylesheet" href="css/bootstrap.min.css">
+           <link rel="stylesheet" href="css/bootstrap.css">
+			<script src="js/jquery-2.2.2.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<meta charset="UTF-8">
+			
+			
+		
+	</head>
+	
+	<script type="text/javascript">
+        var saldo=4.40;
+        function añadir(){
+            saldo= saldo+10;
+            document.getElementById("saldo").innerHTML="<h2>Saldo actual: "+(saldo)+" €</h2>";
+            
+        }
+    </script>
+    
+	<header>
+	    
+		<nav class="navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Desplegar navegación</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">RetroTrade</a>
+          </div>
+
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+             
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Opciones <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="DatosPers.html">Datos personales</a></li>
+                  <li><a href="cartera.html">Cartera</a> </li>
+                  <li><a href="perfil.html">Perfil</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Contáctanos</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Buscar">
+              </div>
+              <button type="submit" class="btn btn-default"><img src="buscar.png"></button>
+            </form>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><img src="chat.png" ></a></li>
+              <li><a href="submit.html"><img src="subir.png"></a></li>
+            </ul>
+          </div>
+        </nav>
+	    
+	</header>
+	<body>
+       <div class="container well">
+            <div class="col-xs-6" id="saldo"><h2>Saldo actual: <script type="text/javascript"> 
+            document.writeln(saldo); </script> €             
+            
+            </h2>
+        </div>
+            
+             <button type="button" class="btn btn-default" id="añadir" onclick="añadir(saldo)">Añadir Saldo</button>
+             <br/><br/><br/>
+             <div><span class="help-block">Una vez añadas saldo no se puede devolver, piensa bien cuánto quieres meter ;)</span></div>
+              
+               
+       </div>
+       
+       
+   
+    </body>
+	
+</html>
