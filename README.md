@@ -26,7 +26,31 @@ geográfica, para evitar discordancias con el precio.
 
 Del mismo modo, esta aplicación está centrada en videojuegos se podría extrapolar a cualquier tipo de artículo coleccionable donde el comprador necesite información detallada del artículo que va a comprar, así como realizar búsquedas en base a esta información.
 
-Entidades: Datos del usuario, Herramienta de búsqueda, Lista de artículos en venta, Lista de artículos deseados, Notificaciones
+Entidades: Datos del usuario, Herramienta de búsqueda, Lista de artículos en venta, Cartera, Publicidad, mensajería.
 
 Por un lado, la parte pública de la aplicación sería solamente la herramienta de búsqueda, y el acceso a la parte pública del perfil, que serían la lista de deseados y de productos a la venta, mientras que privado serían los datos personales y el chat entre usuarios.
+
+Diagrama de Navegación:
+![logo](http://i.imgur.com/u2FAMbN.png)
+Pantallazos:
+Login:
+![logo](http://i.imgur.com/mqjNSc1.png)
+Index, página inicial:
+![logo](http://i.imgur.com/r90EZPN.png)
+Datos personales:
+![logo](http://i.imgur.com/b17V3Fv.png)
+Búsqueda:
+![logo](http://i.imgur.com/NpJXenL.png)
+Subir producto:
+![logo](http://i.imgur.com/mACUq1y.png)
+Perfil
+![logo](http://i.imgur.com/8HOUfgX.png)
+Producto:
+![logo](http://i.imgur.com/x4totgc.png)
+Cartera
+![logo](http://i.imgur.com/dYbL3gf.png)
+Lista de Chats:
+![logo](http://i.imgur.com/Ueyl1aC.png)
+Chat personal:
+![logo](http://i.imgur.com/6BsvTvP.png)
 
