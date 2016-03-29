@@ -5350,6 +5350,7 @@ a.list-group-item-success:focus,
 button.list-group-item-success:focus {
   color: #3c763d;
   background-color: #d0e9c6;
+    text-decoration: none;
 }
 a.list-group-item-success.active,
 button.list-group-item-success.active,
@@ -6796,7 +6797,6 @@ margin-top: 20px;
 }
 
 .profile-header-img {
-    padding: 54px;
 }
 
 .profile-header-img > img.img-circle {
@@ -6829,9 +6829,12 @@ margin-top: 20px;
 
 
 #estadisticas {
-    width: 100%;
     text-align: center;
+    display: block;
+    display: inline-block;
+    text-decoration: none;
     
+    float:none;
 }
 #estadisticas li{
     
@@ -6863,6 +6866,7 @@ margin-top: 20px;
 
 #info {
     text-align: center;
+    text-decoration: none;
 }
 
 #foto {
@@ -6875,10 +6879,20 @@ margin-top: 20px;
 }
 
 #fotPro {
-    max-width: 250px;
-    max-height: 250px;   
-    position: absolute;
-    top: 50%;
+    max-width: 300px;
+    max-height: 250px; 
+    text-align: center;
+}
+
+#avat {
     
-    
+}
+
+#valorac {
+    text-align: center;
+}
+
+#fotoGra {
+    position:relative;
+    left: 25%;    
 }
