@@ -26,7 +26,7 @@ geográfica, para evitar discordancias con el precio.
 
 Del mismo modo, esta aplicación está centrada en videojuegos se podría extrapolar a cualquier tipo de artículo coleccionable donde el comprador necesite información detallada del artículo que va a comprar, así como realizar búsquedas en base a esta información.
 
-Entidades: Datos del usuario, Herramienta de búsqueda, Lista de artículos en venta, Lista de artículos deseados, Notificaciones
+Entidades: Datos del usuario, Herramienta de búsqueda, Lista de artículos en venta, Cartera, Publicidad, mensajería.
 
 Por un lado, la parte pública de la aplicación sería solamente la herramienta de búsqueda, y el acceso a la parte pública del perfil, que serían la lista de deseados y de productos a la venta, mientras que privado serían los datos personales y el chat entre usuarios.
 
