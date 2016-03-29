@@ -49,4 +49,8 @@ Producto:
 ![logo](http://i.imgur.com/x4totgc.png)
 Cartera
 ![logo](http://i.imgur.com/dYbL3gf.png)
+Lista de Chats:
+![logo](http://i.imgur.com/Ueyl1aC.png)
+Chat personal:
+![logo](http://i.imgur.com/6BsvTvP.png)
 
