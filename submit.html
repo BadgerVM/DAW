@@ -1,0 +1,180 @@
+<html>
+	<head>
+		<title>RetroTrade</title>		
+           <link rel="stylesheet" href="css/bootstrap.min.css">
+			<script src="js/jquery-2.2.2.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			
+			
+		
+	</head>
+	<header>
+	    
+		<nav class="navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Desplegar navegación</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">RetroTrade</a>
+          </div>
+
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+             
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Opciones <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="DatosPers.html">Datos personales</a></li>
+                  <li><a href="cartera.html">Cartera</a> </li>
+                  <li><a href="#">Perfil</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Contáctanos</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Buscar">
+              </div>
+              <button type="submit" class="btn btn-default"><img src="buscar.png"></button>
+            </form>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><img src="chat.png" ></a></li>
+              <li><a href="submit.html"><img src="subir.png"></a></li>
+            </ul>
+          </div>
+        </nav>
+	    
+	</header>
+	<body>
+	 
+	  <div class="container well">  
+            <form class="form-horizontal">
+                <fieldset>
+
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Foto">Foto</label>
+                  <div class="col-md-4">
+                    <input id="Foto" name="Foto" class="input-file" type="file">
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Nombre">Título</label>  
+                  <div class="col-md-4">
+                  <input id="Nombre" name="Nombre" type="text" placeholder="Título" class="form-control input-md" required="">
+                  <span class="help-block">Nombre del juego</span>  
+                  </div>
+                </div>
+                <!-- Button Drop Down -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Consola">Consola</label>
+                  <div class="col-md-4">
+                    <div class="input-group">
+                      <input id="Consola" name="Consola" class="form-control" placeholder="Consola" type="text" required="">
+                      <div class="input-group-btn">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                          Desplegar
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu pull-right">
+                          <li><a href="#">NES</a></li>
+                          <li><a href="#">SNES</a></li>
+                          <li><a href="#">GameCube</a></li>
+                          <li><a href="#">PS1</a></li>
+                          <li><a href="#">Dreamcast</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Multiple Radios (inline) -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Estado">Estado</label>
+                  <div class="col-md-4"> 
+                    <label class="radio-inline" for="Estado-0">
+                      <input type="radio" name="Estado" id="Estado-0" value="1" checked="checked">
+                      1
+                    </label> 
+                    <label class="radio-inline" for="Estado-1">
+                      <input type="radio" name="Estado" id="Estado-1" value="2">
+                      2
+                    </label> 
+                    <label class="radio-inline" for="Estado-2">
+                      <input type="radio" name="Estado" id="Estado-2" value="3">
+                      3
+                    </label> 
+                    <label class="radio-inline" for="Estado-3">
+                      <input type="radio" name="Estado" id="Estado-3" value="4">
+                      4
+                    </label> 
+                    <label class="radio-inline" for="Estado-4">
+                      <input type="radio" name="Estado" id="Estado-4" value="5">
+                      5
+                    </label>
+                  </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Precio">Precio:</label>  
+                  <div class="col-md-4">
+                  <input id="Precio" name="Precio" type="text" placeholder="20€, 30€..." class="form-control input-md" required="">
+                  <span class="help-block">El precio estimado se mostrará al lado del producto</span>  
+                  </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Estado">Descripción</label>
+                  <div class="col-md-4">                     
+                    <textarea class="form-control" id="Estado" name="Estado">Precintado, pequeños roces, sin manual...</textarea>
+                  </div>
+                </div>
+
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Envío">¿Realizas envíos?</label>
+                  <div class="col-md-4">
+                  <div class="radio">
+                    <label for="Envío-0">
+                      <input type="radio" name="Envío" id="Envío-0" value="1" checked="checked">
+                      Si
+                    </label>
+                    </div>
+                  <div class="radio">
+                    <label for="Envío-1">
+                      <input type="radio" name="Envío" id="Envío-1" value="2">
+                      No
+                    </label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="Enviar">¿Todo correcto?</label>
+                  <div class="col-md-4">
+                    <button id="Enviar" name="Enviar" class="btn btn-success">subir</button>
+                  </div>
+                </div>
+
+            </fieldset>
+        </form>
+    </div>    
+
+    
+	</body>
+	
+</html>
