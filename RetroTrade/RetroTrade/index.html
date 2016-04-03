@@ -1,0 +1,291 @@
+<html>
+	<head>
+		<title>RetroTrade</title>		
+                        <link rel="stylesheet" href="css/bootstrap.min.css">
+                        <link rel="stylesheet" href="css/estilo.css">
+                        <link rel="stylesheet" href="css/bootstrap.css">
+			<script src="js/jquery-2.2.2.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>		
+	</head>
+	<header>
+	    
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" background-color='#d5d5d5'>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Desplegar navegación</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">RetroTrade</a>
+          </div>
+
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+             
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Opciones <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="DatosPers.html">Datos personales</a></li>
+                  <li><a href="cartera.html">Cartera</a> </li>
+                  <li><a href="perfil.html">Perfil</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Contactanos</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Buscar">
+              </div>
+              <a href="buscar.html"><button type="button" class="btn btn-default"><img src="buscar.png"></button></a>
+            </form>
+
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="chat.html"><img src="chat.png" ></a></li>
+              <li><a href="submit.html"><img src="subir.png"></a></li>
+            </ul>
+          </div>
+        </nav>
+	    
+	</header>
+<body>
+    <!rejilla con diferentes secciones>
+    <div class="container">
+        <div class="page" id="banner">
+            <div class="row">
+               
+                <br>
+                <br>
+                <div class="row">
+                      
+                        <div class="page-header">
+                            <center><h1 id="forms">BIENVENIDOS A RETRO TRADE</h1></center>
+                            
+                            <hr style="color: #ACB5FF;" />
+                            
+                            <div class="container">
+                              <div class="container" id="centrado">                            
+                                 
+                                
+                                  <ul class="list-inline" id="centrado">
+                                    <li><a href="#" id="centrado">Novedades </a></li>
+                                    <li><a href="#" id="centrado">Cerca de ti</a></li>
+                                    <li><a href="#" id="centrado">Ediciones Limitadas</a></li>
+                                    <li><a href="#" id="centrado">Material Retro</a></li>
+                                  </ul>                                
+                              </div>
+                            </div>
+                            
+                        </div>
+                      
+                    </div>
+                    <div>
+                       <div class="col-lg-12">
+                          <center><h3 id="forms">Si aún no eres usuario</h3>
+                          <a  href="DatosPers.html" type="button" class="btn btn-primary" background-color="#b2b9c0">REGISTRARSE AQUI</a></center>                        
+                      </div>
+                    </div>
+                <!-- Columna Izquierda -->
+                <div class="col-sm-8">
+                      <div class="col-lg-12">
+                        <div class="page-header">
+                          <h3 id="forms">Novedades</h3>
+                        </div>
+                      </div>
+                    <!--fotos carrusel--> 
+                    <div class="container-fluid">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+                            <div class="row">
+                                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                                  <!-- Indicators -->
+                                  <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                  </ol>
+
+                                  <!-- Wrapper for slides -->
+                                  <div class="carousel-inner">
+                                    <div class="item active">
+                                      <img src="http://placehold.it/1400x800" alt="...">
+                                      <div class="carousel-caption">
+                                          <h3>Caption Text</h3>
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <img src="http://placehold.it/1400x800" alt="...">
+                                      <div class="carousel-caption">
+                                          <h3>Caption Text</h3>
+                                      </div>
+                                    </div>
+                                    <div class="item">
+                                      <img src="http://placehold.it/1400x800" alt="...">
+                                      <div class="carousel-caption">
+                                          <h3>Caption Text</h3>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <!-- Controls -->
+                                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                  </a>
+                                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                  </a>
+                                </div> <!-- Carousel -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Columna Derecha -->
+                <div class=" col-sm-4">
+                    <!-- Formulario -->
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="page-header">
+                          <h3 id="forms">Destacados</h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="well bs-component">
+                          <form class="form-horizontal">
+                            <section id="Clases" class="list-group panel">
+                           
+                                <!-- XBOX -->
+                            <a href="#pricollap" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#Clases"><h3>Xbox</h3></a>
+                            <section class="collapse" id="pricollap">
+                               <!-- Articulos -->                             
+                            <div class="left-feild">
+                                <div class="be-post style-2">
+                                    <a href="blog-detail-2.html" class="be-post-title">Publicidad 1</a>     	
+                                    <a href="blog-detail-2.html" class="be-img-block">
+                                            <img src="logo.png" alt="omg">
+                                    </a>
+                                    <span>
+                                            Texto publicidad 1
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="left-feild">
+                                <div class="be-post style-2">
+                                    <a href="blog-detail-2.html" class="be-post-title">Publicidad 2</a>     	
+                                    <a href="blog-detail-2.html" class="be-img-block">
+                                            <img src="logo.png" alt="omg">
+                                    </a>
+                                    <span>
+                                            Texto publicidad 2
+                                    </span>
+                                </div>
+                            </div>
+                            </section>
+                            <!-- Wii -->
+                            <a href="#Segundo" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu"><h3>Wii</h3></a>
+                            <section class='collapse' id='Segundo'>
+                               <!-- Articulos -->                             
+                            <div class="left-feild">
+                                <div class="be-post style-2">
+                                    <a href="blog-detail-2.html" class="be-post-title">Publicidad 1</a>     	
+                                    <a href="blog-detail-2.html" class="be-img-block">
+                                            <img src="logo.png" alt="omg">
+                                    </a>
+                                    <span>
+                                            Texto publicidad 1
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="left-feild">
+                                <div class="be-post style-2">
+                                    <a href="blog-detail-2.html" class="be-post-title">Publicidad 2</a>     	
+                                    <a href="blog-detail-2.html" class="be-img-block">
+                                            <img src="logo.png" alt="omg">
+                                    </a>
+                                    <span>
+                                            Texto publicidad 2
+                                    </span>
+                                </div>
+                            </div>                                
+                            </section>
+                            <!-- PlayStation -->
+                            <a href="#Tercero" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu"><h3>PlaySation</h3></a>
+                            <section class='collapse' id='Tercero'>
+                               <!-- Articulos -->                             
+                            <div class="left-feild">
+                                <div class="be-post style-2">
+                                    <a href="blog-detail-2.html" class="be-post-title">Publicidad 1</a>     	
+                                    <a href="blog-detail-2.html" class="be-img-block">
+                                            <img src="logo.png" alt="omg">
+                                    </a>
+                                    <span>
+                                            Texto publicidad 1
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="left-feild">
+                                <div class="be-post style-2">
+                                    <a href="blog-detail-2.html" class="be-post-title">Publicidad 2</a>     	
+                                    <a href="blog-detail-2.html" class="be-img-block">
+                                            <img src="logo.png" alt="omg">
+                                    </a>
+                                    <span>
+                                            Texto publicidad 2
+                                    </span>
+                                </div>
+                            </div>                                 
+                            </section>
+                            <!-- PC -->
+                            <a href="#Cuarto" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu"><h3>PC</h3></a>
+                            <section class='collapse' id='Cuarto'>
+                               <!-- Articulos -->                             
+                            <div class="left-feild">
+                                <div class="be-post style-2">
+                                    <a href="blog-detail-2.html" class="be-post-title">Publicidad 1</a>     	
+                                    <a href="blog-detail-2.html" class="be-img-block">
+                                            <img src="logo.png" alt="omg">
+                                    </a>
+                                    <span>
+                                            Texto publicidad 1
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="left-feild">
+                                <div class="be-post style-2">
+                                    <a href="blog-detail-2.html" class="be-post-title">Publicidad 2</a>     	
+                                    <a href="blog-detail-2.html" class="be-img-block">
+                                            <img src="logo.png" alt="omg">
+                                    </a>
+                                    <span>
+                                            Texto publicidad 2
+                                    </span>
+                                </div>
+                            </div>                                 
+                            </section>
+                        </section>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+<br>
+<br>
+
+	
+	
+ 
+	
+</body>
+	
+</html>
