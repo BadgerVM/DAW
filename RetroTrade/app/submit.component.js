@@ -1,0 +1,37 @@
+System.register(['angular2/core'], function(exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
+    var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+        var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+        if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+        else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+        return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    var __metadata = (this && this.__metadata) || function (k, v) {
+        if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+    var core_1;
+    var SubmitComponent;
+    return {
+        setters:[
+            function (core_1_1) {
+                core_1 = core_1_1;
+            }],
+        execute: function() {
+            SubmitComponent = (function () {
+                function SubmitComponent() {
+                }
+                SubmitComponent = __decorate([
+                    core_1.Component({
+                        selector: 'submit',
+                        template: "\n    <div class=\"container well\">\n            <form class=\"form-horizontal\">\n                <fieldset>\n\n                <div class=\"form-group\">\n                  <label class=\"col-md-4 control-label\" for=\"Foto\">Foto</label>\n                  <div class=\"col-md-4\">\n                    <input id=\"Foto\" name=\"Foto\" class=\"input-file\" type=\"file\">\n                  </div>\n                </div>\n\n                <!-- Text input-->\n                <div class=\"form-group\">\n                  <label class=\"col-md-4 control-label\" for=\"Nombre\">T\u00EDtulo</label>\n                  <div class=\"col-md-4\">\n                  <input id=\"Nombre\" name=\"Nombre\" type=\"text\" placeholder=\"T\u00EDtulo\" class=\"form-control input-md\" required=\"\">\n                  <span class=\"help-block\">Nombre del juego</span>\n                  </div>\n                </div>\n                <!-- Button Drop Down -->\n                <div class=\"form-group\">\n                  <label class=\"col-md-4 control-label\" for=\"Consola\">Consola</label>\n                  <div class=\"col-md-4\">\n                    <div class=\"input-group\">\n                      <input id=\"Consola\" name=\"Consola\" class=\"form-control\" placeholder=\"Consola\" type=\"text\" required=\"\">\n                      <div class=\"input-group-btn\">\n                        <button type=\"button\" class=\"btn btn-default dropdown-toggle\" data-toggle=\"dropdown\">\n                          Desplegar\n                          <span class=\"caret\"></span>\n                        </button>\n                        <ul class=\"dropdown-menu pull-right\">\n                          <li><a href=\"#\">NES</a></li>\n                          <li><a href=\"#\">SNES</a></li>\n                          <li><a href=\"#\">GameCube</a></li>\n                          <li><a href=\"#\">PS1</a></li>\n                          <li><a href=\"#\">Dreamcast</a></li>\n                        </ul>\n                      </div>\n                    </div>\n                  </div>\n                </div>\n\n                <!-- Multiple Radios (inline) -->\n                <div class=\"form-group\">\n                  <label class=\"col-md-4 control-label\" for=\"Estado\">Estado</label>\n                  <div class=\"col-md-4\">\n                    <label class=\"radio-inline\" for=\"Estado-0\">\n                      <input type=\"radio\" name=\"Estado\" id=\"Estado-0\" value=\"1\" checked=\"checked\">\n                      1\n                    </label>\n                    <label class=\"radio-inline\" for=\"Estado-1\">\n                      <input type=\"radio\" name=\"Estado\" id=\"Estado-1\" value=\"2\">\n                      2\n                    </label>\n                    <label class=\"radio-inline\" for=\"Estado-2\">\n                      <input type=\"radio\" name=\"Estado\" id=\"Estado-2\" value=\"3\">\n                      3\n                    </label>\n                    <label class=\"radio-inline\" for=\"Estado-3\">\n                      <input type=\"radio\" name=\"Estado\" id=\"Estado-3\" value=\"4\">\n                      4\n                    </label>\n                    <label class=\"radio-inline\" for=\"Estado-4\">\n                      <input type=\"radio\" name=\"Estado\" id=\"Estado-4\" value=\"5\">\n                      5\n                    </label>\n                  </div>\n                </div>\n\n                <!-- Text input-->\n                <div class=\"form-group\">\n                  <label class=\"col-md-4 control-label\" for=\"Precio\">Precio:</label>\n                  <div class=\"col-md-4\">\n                  <input id=\"Precio\" name=\"Precio\" type=\"text\" placeholder=\"20\u20AC, 30\u20AC...\" class=\"form-control input-md\" required=\"\">\n                  <span class=\"help-block\">El precio estimado se mostrar\u00E1 al lado del producto</span>\n                  </div>\n                </div>\n\n                <!-- Textarea -->\n                <div class=\"form-group\">\n                  <label class=\"col-md-4 control-label\" for=\"Estado\">Descripci\u00F3n</label>\n                  <div class=\"col-md-4\">\n                    <textarea class=\"form-control\" id=\"Estado\" name=\"Estado\">Precintado, peque\u00F1os roces, sin manual...</textarea>\n                  </div>\n                </div>\n\n                <!-- Multiple Radios -->\n                <div class=\"form-group\">\n                  <label class=\"col-md-4 control-label\" for=\"Env\u00EDo\">\u00BFRealizas env\u00EDos?</label>\n                  <div class=\"col-md-4\">\n                  <div class=\"radio\">\n                    <label for=\"Env\u00EDo-0\">\n                      <input type=\"radio\" name=\"Env\u00EDo\" id=\"Env\u00EDo-0\" value=\"1\" checked=\"checked\">\n                      Si\n                    </label>\n                    </div>\n                  <div class=\"radio\">\n                    <label for=\"Env\u00EDo-1\">\n                      <input type=\"radio\" name=\"Env\u00EDo\" id=\"Env\u00EDo-1\" value=\"2\">\n                      No\n                    </label>\n                    </div>\n                  </div>\n                </div>\n\n                <!-- Button -->\n                <div class=\"form-group\">\n                  <label class=\"col-md-4 control-label\" for=\"Enviar\">\u00BFTodo correcto?</label>\n                  <div class=\"col-md-4\">\n                    <button id=\"Enviar\" name=\"Enviar\" class=\"btn btn-success\">subir</button>\n                  </div>\n                </div>\n\n            </fieldset>\n        </form>\n    </div>\n   ",
+                    }), 
+                    __metadata('design:paramtypes', [])
+                ], SubmitComponent);
+                return SubmitComponent;
+            }());
+            exports_1("SubmitComponent", SubmitComponent);
+        }
+    }
+});
+//# sourceMappingURL=submit.component.js.map
